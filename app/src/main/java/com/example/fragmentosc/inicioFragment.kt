@@ -8,8 +8,6 @@ import android.view.ViewGroup
 
 
 class inicioFragment : Fragment(R.layout.fragment_inicio) {
-    override fun onResume() {
-        super.onResume()
 
-    }
 }
+
