@@ -9,7 +9,7 @@ import android.widget.Toast
 
 class fragmentA : Fragment(R.layout.fragment_a) {
 
-    private val DETAIL_KEY = "DETAIL_KEY"
+    /*private val DETAIL_KEY = "DETAIL_KEY"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,6 +34,6 @@ class fragmentA : Fragment(R.layout.fragment_a) {
 
         Toast.makeText(context, requireArguments().getString("key", ""), Toast.LENGTH_SHORT).show()
 
-    }
+    }*/
 
 }

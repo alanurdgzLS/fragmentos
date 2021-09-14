@@ -9,6 +9,11 @@ import androidx.fragment.app.Fragment
 
 class MainActivity : AppCompatActivity() {
 
+    /*
+    Profe realmente no me salió, si logre que fuera a los fragments
+    pero dentro de los fragments ya no entndí como hacerle la verdad
+    */
+
     private val KEY = "STATE_KEY"
     private var addDetalleFragment: Boolean = true
 
