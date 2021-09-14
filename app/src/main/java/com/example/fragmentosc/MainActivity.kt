@@ -10,11 +10,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         supportFragmentManager.beginTransaction().add(R.id.container, inicioFragment()).commit()
-        findViewById<Button>(R.id.btnFragmentoA).setOnClickListener{
+        findViewById<Button>(R.id.btnInfo).setOnClickListener{
             replaceFragment(fragmentA())
-        }
-        findViewById<Button>(R.id.btnFragmentoB).setOnClickListener{
-            replaceFragment(fragmentB())
         }
     }
 
